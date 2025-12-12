@@ -1,0 +1,61 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# =========================
+# Variables d'environnement
+# =========================
+.env
+.env.*
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Base de données / caches
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# Alembic
+# =========================
+alembic.ini
+app/database/migrations/versions/
+
+# =========================
+# Tests / couverture
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# =========================
+# Docker (si utilisé plus tard)
+# =========================
+docker-compose.override.yml
